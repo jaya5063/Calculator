@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calci">
+        <input  id="display">
+        <div id="keys">
+            <button class="cancel" onclick="allClear()">AC</button>
+            <button class="cancel" onclick="clear()">C</button>
+            <button class="operators" onclick="showNums('%')">%</button>
+            <button class="operators" onclick="showNums('*')">X</button>
+            <button class="numbers" onclick="showNums('7')">7</button>
+            <button class="numbers" onclick="showNums('8')">8</button>
+            <button class="numbers" onclick="showNums('9')">9</button>
+            <button class="operators" onclick="showNums('-')">-</button>
+            <button class="numbers" onclick="showNums('4')">4</button>
+            <button class="numbers" onclick="showNums('5')">5</button>
+            <button class="numbers" onclick="showNums('6')">6</button>
+            <button class="operators" onclick="showNums('+')">+</button>
+            <button class="numbers" onclick="showNums('1')">1</button>
+            <button class="numbers" onclick="showNums('2')">2</button>
+            <button class="numbers" onclick="showNums('3')">3</button>
+            <button class="operators" onclick="showNums('/')">/</button>
+            <button class="numbers" onclick="showNums('0')">0</button>
+            <button class="numbers" onclick="showNums('.')">.</button>
+            <button id="equal" onclick="ans()">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
